@@ -2,10 +2,85 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Slip Scroll</title>
+    <title>How to Give Your Logo the “Slip Scroll” Effect</title>
     <link rel="stylesheet" href="css/style.css">
+
+      <!--favicons-->
+  <link href="https://static.tutsplus.com/assets/favicon-3ef7b4f54ed4378b31ff3124d3c4bff8.png" rel="shortcut icon" type="image/png" />
+  <link href="https://static.tutsplus.com/assets/apple-touch-icon-3ef7b4f54ed4378b31ff3124d3c4bff8.png" rel="apple-touch-icon" type="image/png" />
+
+<style>
+
+.wrapper {
+    width: 90%;
+    margin: 10px auto;
+}
+@media screen and (min-width: 768px) {
+    .wrapper {
+        margin: 30px auto;
+    }
+}
+
+nav {
+    background: #2a3744;
+    width: 100%;
+    padding: .5em 0;
+    z-index: 10;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+
+/* LINKS AND BUTTONS THEREUPON.. */
+
+nav a {
+    color: #c0ccdb;
+    display: inline-block;
+    font-size: .8125em;
+    line-height: 1.2307em;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #c0ccdb;
+    text-decoration: underline;
+}
+
+nav .global-nav__header-tuts-logo-link img {
+  width: 70px;
+  position: relative;
+  top: 5px;
+  margin-right: 20px;
+}
+
+span.page-footer__tuts-brand-text {
+  color: #c0ccdb;
+}
+</style>
+
   </head>
   <body>
+
+  <nav>
+
+<div class="wrapper">
+
+<a class="global-nav__header-tuts-logo-link" href="http://tutsplus.com"><img alt="tuts+" class="global-nav__header-tuts-logo-image" data-cfsrc="tuts_logo.svg" src="tuts_logo.svg"></a>  
+
+    <a class="main-link" href="http://webdesign.tutsplus.com/tutorials/how-to-give-your-logo-the-slip-scroll-effect--cms-22274">Read the tutorial on Tuts+</a>
+            
+
+            
+            <!-- AddThis -->
+      <div class="addthis_toolbox addthis_default_style">
+      <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+      <a class="addthis_button_tweet"></a>
+      <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+      </div>
+
+</div>
+</nav>
+
 
 
     <div class="container dark">
@@ -27,6 +102,8 @@
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="js/slipScroll.js"></script>
+    <script src="http://tutsplus.github.io/github-analytics/ga-tracking.min.js"></script>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52f8051c3c5a38f1"></script>
 
   </body>
 </html>
